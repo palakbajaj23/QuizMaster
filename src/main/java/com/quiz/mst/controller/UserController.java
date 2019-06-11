@@ -23,7 +23,7 @@ public class UserController {
 	
 	@RequestMapping(value="/addNewUser", method = RequestMethod.GET)
     public String showregisterPage(ModelMap model){
-        return "register";
+        return "register1";
     }
 	
 	@RequestMapping(value="/saveNewUser", method = RequestMethod.POST)
