@@ -16,7 +16,7 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
-	@RequestMapping("/")
+	@RequestMapping("/QuizMasters")
 	public String index() {
 		return "homePage";
 	}
